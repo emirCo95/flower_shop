@@ -4,7 +4,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-hero-pattern bg-no-repeat bg-cover">
+    <div className="w-full h-screen bg-hero-pattern bg-no-repeat bg-cover border-b-2 border-black">
       <div className="w-full h-full backdrop-blur-sm flex flex-col justify-center items-center ">
         <div className="w-full h-[40%] flex justify-center items-center">
           <Image src="/logo.png" alt="logo" width={500} height={500} />
