@@ -14,9 +14,9 @@ export default {
         foreground: 'var(--foreground)',
       },
       backgroundImage: {
-        'hero-pattern': "url('/hero.jpg')",
-        'about-pattern': "url('/about.jpg')",
-        'collections-pattern': "url('/collections.jpg')",
+        'hero-pattern': "url('/borcelle-boutique/hero.jpg')",
+        'about-pattern': "url('/borcelle-boutique/about.jpg')",
+        'collections-pattern': "url('/borcelle-boutique/collections.jpg')",
       },
     },
   },

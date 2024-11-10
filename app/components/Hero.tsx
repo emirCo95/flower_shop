@@ -7,7 +7,12 @@ const Hero = () => {
     <div className="w-full h-screen bg-hero-pattern bg-no-repeat bg-cover border-b-2 border-black">
       <div className="w-full h-full backdrop-blur-sm flex flex-col justify-center items-center ">
         <div className="w-full h-[40%] flex justify-center items-center">
-          <Image src="/logo.png" alt="logo" width={500} height={500} />
+          <Image
+            src="/borcelle-boutique/logo.png"
+            alt="logo"
+            width={500}
+            height={500}
+          />
         </div>
         <div className="">
           <button className="bg-borcelle border-2 border-black hover:bg-black hover:text-borcelle hover:border-borcelle p-5 m-5 rounded-md">
