@@ -16,6 +16,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/hero.jpg')",
         'about-pattern': "url('/about.jpg')",
+        'collections-pattern': "url('/collections.jpg')",
       },
     },
   },

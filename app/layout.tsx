@@ -19,7 +19,6 @@ export default function RootLayout({
       <body className={`${jSans.className} antialiased scroll-smooth`}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

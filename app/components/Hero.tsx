@@ -10,10 +10,10 @@ const Hero = () => {
           <Image src="/logo.png" alt="logo" width={500} height={500} />
         </div>
         <div className="">
-          <button className="bg-borcelle border-2 border-black p-5 m-5 rounded-md">
+          <button className="bg-borcelle border-2 border-black hover:bg-black hover:text-borcelle hover:border-borcelle p-5 m-5 rounded-md">
             <Link href="#about">About Us</Link>
           </button>
-          <button className="bg-black text-white border-2 border-white p-5 m-5 rounded-md">
+          <button className="bg-black text-white border-2 border-white hover:bg-white hover:text-black hover:border-black p-5 m-5 rounded-md">
             <Link href="#collections">Our Collections</Link>
           </button>
         </div>

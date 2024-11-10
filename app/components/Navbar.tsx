@@ -3,8 +3,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="absolute w-full h-[10vh] flex justify-center items-center">
-      <ul className="w-[80%] md:w-[50%] flex justify-evenly items-center p-10 mt-0 z-10 shadow-md shadow-white rounded-md bg-borcelle">
+    <nav className="fixed z-20 w-full h-[10vh] flex justify-center items-center">
+      <ul className="w-[80%] md:w-[50%] flex justify-evenly items-center p-10 mt-0 z-10 shadow-md border-2 border-black rounded-md bg-borcelle">
         <li>
           <Link className="hover:italic" href="/">
             Home
