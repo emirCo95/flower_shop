@@ -2,14 +2,11 @@
   "name": "flower_shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emirCo95.github.io/flower_shop>",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.0.3",
